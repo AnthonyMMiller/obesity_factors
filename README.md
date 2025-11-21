@@ -132,7 +132,7 @@ Food desert interventions may be most effective in economically disadvantaged ar
 | Moderation by poverty | Yes | Understudied; novel contribution ✅ |
 | Strongest predictor | Education (-0.27) | Often income or poverty (literature variable) ✅ |
 
-**Conclusion:** Your findings align well with literature while contributing new insights on moderation effects.
+**Conclusion:** Findings align well with literature while contributing new insights on moderation effects.
 
 ---
 
@@ -154,7 +154,6 @@ Food desert interventions may be most effective in economically disadvantaged ar
 - **Model 2** is both statistically and practically significant (explains 50% of obesity variation)
 - **Model 3** adds statistical refinement (interaction is significant) but minimal practical improvement
 
-**For Your Capstone:** This demonstrates why statistical testing alone is insufficient—you must also examine effect sizes.
 
 ---
 
