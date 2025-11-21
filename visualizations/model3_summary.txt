@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            obesity_pct   R-squared:                       0.507
+Model:                            OLS   Adj. R-squared:                  0.506
+Method:                 Least Squares   F-statistic:                     641.5
+Date:                Tue, 11 Nov 2025   Prob (F-statistic):               0.00
+Time:                        15:50:05   Log-Likelihood:                -8130.8
+No. Observations:                3129   AIC:                         1.627e+04
+Df Residuals:                    3123   BIC:                         1.631e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     37.5618      0.061    613.117      0.000      37.442      37.682
+food_desert_prevalence    -0.1325      0.065     -2.031      0.042      -0.260      -0.005
+median_income_usd         -0.1734      0.111     -1.555      0.120      -0.392       0.045
+poverty_pct                0.8654      0.091      9.490      0.000       0.687       1.044
+education_pct             -2.6702      0.085    -31.516      0.000      -2.836      -2.504
+fd_poverty_interaction     0.2079      0.049      4.222      0.000       0.111       0.304
+==============================================================================
+Omnibus:                       50.988   Durbin-Watson:                   1.028
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               56.751
+Skew:                          -0.272   Prob(JB):                     4.75e-13
+Kurtosis:                       3.375   Cond. No.                         3.84
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

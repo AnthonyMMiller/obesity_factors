@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            obesity_pct   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     64.12
+Date:                Tue, 11 Nov 2025   Prob (F-statistic):           1.64e-15
+Time:                        15:49:32   Log-Likelihood:                -9204.4
+No. Observations:                3129   AIC:                         1.841e+04
+Df Residuals:                    3127   BIC:                         1.842e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     36.9537      0.119    310.986      0.000      36.721      37.187
+food_desert_prevalence     0.0268      0.003      8.007      0.000       0.020       0.033
+==============================================================================
+Omnibus:                      209.076   Durbin-Watson:                   0.974
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              263.900
+Skew:                          -0.623   Prob(JB):                     4.95e-58
+Kurtosis:                       3.687   Cond. No.                         51.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

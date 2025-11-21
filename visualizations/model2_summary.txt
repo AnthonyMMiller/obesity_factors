@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            obesity_pct   R-squared:                       0.504
+Model:                            OLS   Adj. R-squared:                  0.503
+Method:                 Least Squares   F-statistic:                     793.1
+Date:                Tue, 11 Nov 2025   Prob (F-statistic):               0.00
+Time:                        15:49:45   Log-Likelihood:                -8139.7
+No. Observations:                3129   AIC:                         1.629e+04
+Df Residuals:                    3124   BIC:                         1.632e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                     42.0619      0.507     83.018      0.000      41.068      43.055
+food_desert_prevalence    -0.0029      0.003     -1.125      0.261      -0.008       0.002
+median_income_usd      -5.165e-06   6.35e-06     -0.814      0.416   -1.76e-05    7.28e-06
+poverty_pct                0.1633      0.015     10.917      0.000       0.134       0.193
+education_pct             -0.2632      0.008    -31.462      0.000      -0.280      -0.247
+==============================================================================
+Omnibus:                       45.065   Durbin-Watson:                   1.028
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               50.257
+Skew:                          -0.250   Prob(JB):                     1.22e-11
+Kurtosis:                       3.368   Cond. No.                     5.93e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.93e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
